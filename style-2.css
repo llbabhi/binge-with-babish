@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    min-height: 8vh;
+    padding-top: 40px;
+
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    list-style: none;
+    padding-top: 3px;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.logo{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+video{
+    height: 1%;
+    width: 100%;
+}
+
+.background{
+    position: relative;
+    bottom: 110px;
+    width: 100%;
+    
+}
+
+
+.container{
+    height: 1000px;
+    background-color: gray;
+    position: relative;
+    bottom: 120px;
+
+}
+
+/* .line{
+    width: 50%;
+    height: 1px;
+    background-color: white;
+    padding-top: px;
+} */
+
+.images{
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    
+}
+
+p{
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+
+.food-section{
+    position: relative;
+    display: flex;
+    left: 150px;
+    top: 60px;
+}
+
+#box1{
+    padding: 10px;
+}
+
+img{
+    height: 200px;
+    display: flex;
+}
+
+p{
+    font-size: 22px;
+    padding: 5px;
+}
+
+.date{
+    font-size: 10px;
+    
+}
+
+.bold{
+    text-align: center;
+    font-weight: bold;
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    top: 500px;
+    color: white;
+    font-size: 100px;
+}
+
+
+.btn{
+    position: relative;
+    top: 120px;
+    left: 620px;
+    padding: 20px;
+    text-transform: uppercase;
+    width: 16%;
+    border-radius: 40px;
+    background-color: white;
+    letter-spacing: 3px;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.8s;
+}
